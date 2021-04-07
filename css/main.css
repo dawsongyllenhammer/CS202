@@ -1,0 +1,31 @@
+/* 
+Stylesheet for CS202 
+* version:1.0
+* last-modified: 4.2.2021
+* author: Dawson Gyllenhammer
+* email: dggyllenhammer@gmail.com
+* website: Lesson 2A, CSS
+*/
+
+/* imported css */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+/* style rule- selector{declaration;}*/
+/* css variables */
+
+:root{
+    --main-color: #05a081;
+    --font-family: 'Nunito';
+    --primary-color: red;
+}
+
+body{
+    background-color: lightblue;
+    font-family: var(--font-family);
+}
+
+h3{
+    color: var(--main-color) !important;
+}
+
+/* important rule - !important ^above*/
